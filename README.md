@@ -46,5 +46,5 @@ I’m building hands-on projects in AWS, Terraform, and Python as I work toward 
 
 ## Connect
 
-- LinkedIn: add your URL here
-- CyberNest: add your site when ready
+- LinkedIn: www.linkedin.com/in/deandre-wilson-939217141
+- CyberNest: https://cybernesthub.com/
