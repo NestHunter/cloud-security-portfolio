@@ -1,20 +1,14 @@
 # Cloud Security Portfolio
 
-Welcome to my cloud security portfolio.
+This repository is the central hub for my AWS and cloud security work — hands-on labs, architecture projects, and technical write-ups built while pursuing the Cloud Security Engineer path.
 
-This repository is the central home for the projects, labs, notes, and technical write-ups I'm building as I work toward becoming a Cloud Security Engineer. My focus is on learning in public, building practical skills, and turning cloud concepts into real-world projects.
+## Focus Areas
 
-## About Me
-
-I'm currently building my skills in:
-
-- AWS
-- Cloud Security
-- Terraform
-- Python
-- Secure architecture design
-
-I'm actively working through the AWS Solutions Architect path as part of my broader Cloud Security Engineer journey, while building projects that strengthen both my technical foundation and portfolio.
+- AWS architecture, networking, and security design
+- Serverless and event-driven application patterns
+- Infrastructure as Code with Terraform
+- Python for cloud automation and tooling
+- Secure, scalable cloud environment design
 
 ---
 
@@ -22,47 +16,24 @@ I'm actively working through the AWS Solutions Architect path as part of my broa
 
 ### [aws-saa-labs](https://github.com/NestHunter/aws-saa-labs)
 
-Hands-on labs and study notes from my AWS Solutions Architect Associate journey.
+Structured hands-on lab repository covering AWS Solutions Architect Associate topics. Each lab is documented in its own folder with a detailed README.
 
-**What's inside:**
+**Current labs:**
 
-- [Enabling Outbound Internet Access from a Private Subnet with a NAT Gateway](https://github.com/NestHunter/aws-saa-labs/blob/main/labs/private-subnet-nat-gateway.md) — VPC networking lab covering NAT Gateway placement, route table configuration, and security group design.
+**Networking & VPC**
+- [Enabling Outbound Internet Access from a Private Subnet with a NAT Gateway](https://github.com/NestHunter/aws-saa-labs/blob/main/labs/private-subnet-nat-gateway/README.md) — NAT Gateway placement, route table configuration, and security group design for private subnet outbound access.
+- [Network Evaluation Challenge — VPC Troubleshooting Skills Assessment](https://github.com/NestHunter/aws-saa-labs/blob/main/labs/network-evaluation-challenge/README.md) — Multi-layer VPC diagnosis: inaccessible EC2 instance, misconfigured security group, missing private subnet route. Covers correct production architecture vs. quick workarounds.
+
+**Serverless & Compute**
+- [Connect a Lambda Function to a VPC](https://github.com/NestHunter/aws-saa-labs/blob/main/labs/connect-lambda-to-vpc/README.md) — Lambda VPC attachment, NAT Gateway requirements, ENI IAM permissions, and the full Lambda → EC2 → S3 workflow.
+- [Fix an API Gateway GET Method Using Lambda Proxy Integration](https://github.com/NestHunter/aws-saa-labs/blob/main/labs/api-gateway-lambda-proxy-fix/README.md) — Troubleshooting a broken API Gateway integration after a Swagger import; recreating the GET method with correct Lambda proxy configuration.
+- [Build a Serverless Web Application (S3, API Gateway, Lambda, SQS, DynamoDB)](https://github.com/NestHunter/aws-saa-labs/blob/main/labs/serverless-web-application/README.md) — End-to-end serverless application: S3 static frontend → API Gateway → producer Lambda → SQS → consumer Lambda → DynamoDB.
+
+**Storage**
+- [Amazon EBS Volumes](https://github.com/NestHunter/aws-saa-labs/blob/main/labs/ebs-volume-lab/README.md) — Full EBS lifecycle: create, attach, format, mount, persist via fstab, snapshot, and cross-AZ restore.
+
+**Troubleshooting**
 - [Troubleshooting an Application Load Balancer and CloudFormation Stack](https://github.com/NestHunter/aws-saa-labs/blob/main/troubleshooting/alb-cloudformation-troubleshooting.md) — Diagnosing and fixing a broken ALB deployment: Auto Scaling Group attachment, subnet placement, and security group rules.
-
----
-
-## What You'll Find Here
-
-This repository will serve as an index for my work across areas like:
-
-- AWS hands-on labs
-- Cloud architecture projects
-- Security-focused implementations
-- Infrastructure as Code practice
-- Technical notes and lessons learned
-- Articles and documentation tied to my growth in cloud and security
-
----
-
-## Current Focus Areas
-
-- AWS Solutions Architect Associate
-- AWS Security concepts and best practices
-- Terraform for Infrastructure as Code
-- Python for automation and cloud tooling
-- Building secure, scalable cloud environments
-
----
-
-## Portfolio Goals
-
-The purpose of this portfolio is to:
-
-- Document my learning journey in a structured way
-- Showcase hands-on cloud and security projects
-- Demonstrate practical skills beyond certifications
-- Build a body of work that supports future career opportunities
-- Create a strong foundation for long-term projects tied to CyberNest
 
 ---
 
@@ -70,18 +41,10 @@ The purpose of this portfolio is to:
 
 | Project | Focus Area | Status |
 |---|---|---|
-| [AWS SAA Labs](https://github.com/NestHunter/aws-saa-labs) | VPC, networking, IAM, compute, storage | In Progress |
+| [AWS SAA Labs](https://github.com/NestHunter/aws-saa-labs) | VPC, networking, serverless, storage, compute | In Progress |
 | Secure S3 Static Site | S3, bucket policies, encryption, hosting | Planned |
 | Terraform AWS VPC | Networking, Infrastructure as Code, security groups | Planned |
 | Three-Tier AWS Architecture | Secure architecture design, EC2, load balancing, databases | Planned |
-
----
-
-## Why This Repo Matters
-
-I want this portfolio to reflect real progress over time, not just finished work. That means some repositories and project notes may begin small and evolve as my skills grow.
-
-The goal is simple: build in public, document clearly, and keep improving.
 
 ---
 
